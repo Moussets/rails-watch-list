@@ -1,0 +1,7 @@
+<ul class=“list-group”>
+    <% @list.bookmarks.each do |bookmark| %>
+      <li class=“list-group-item”><%= bookmark.content %></li>
+    <% end %>
+  </ul>
+
+<a class = "btn btn-primary" href = "/lists" >Back to list</a>
